@@ -73,21 +73,21 @@ Three synthetic defects are documented in detail:
 **Severity:** Medium · **Priority:** Medium  
 The login form attempts authentication for an obviously invalid email instead of blocking the request with clear validation.
 
-[Bug report](bug-reports/BUG-001-invalid-login-email-accepted.md) · [GitHub Issue #1](../../issues/1)
+[Bug report](bug-reports/BUG-001-invalid-login-email-accepted.md) · [GitHub Issue #1](https://github.com/PetrosChatz/qa-testing-portfolio/issues/1)
 
 ### BUG-002 — Cart total does not update after quantity change
 
 **Severity:** High · **Priority:** High  
 The quantity changes correctly, but the cart total remains stale until page refresh.
 
-[Bug report](bug-reports/BUG-002-cart-total-not-updated.md) · [GitHub Issue #2](../../issues/2)
+[Bug report](bug-reports/BUG-002-cart-total-not-updated.md) · [GitHub Issue #2](https://github.com/PetrosChatz/qa-testing-portfolio/issues/2)
 
 ### BUG-003 — Double-clicking Place order creates duplicate orders
 
 **Severity:** Critical · **Priority:** High  
 Two rapid submissions can create two orders, demonstrating a transaction-integrity and idempotency problem.
 
-[Bug report](bug-reports/BUG-003-duplicate-order-on-double-click.md) · [GitHub Issue #3](../../issues/3)
+[Bug report](bug-reports/BUG-003-duplicate-order-on-double-click.md) · [GitHub Issue #3](https://github.com/PetrosChatz/qa-testing-portfolio/issues/3)
 
 ## Exploratory testing
 
